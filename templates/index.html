@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pull & Pass</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bienvenido a Pull & Pass</h1>
+            <p>Un experimento social colaborativo donde tú eres parte del código.</p>
+        </header>
+
+        <main>
+            <section class="saludo">
+                <form method="POST" novalidate>
+                    <label for="nombre">Ingresa tu nombre:</label><br />
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre aquí" required />
+                    <button type="submit">Saludar</button>
+                </form>
+                {% if saludo %}
+                <h2 class="mensaje-saludo">{{ saludo }}</h2>
+                {% endif %}
+            </section>
+
+            <section class="info">
+                <h2>¿Qué puedes hacer aquí?</h2>
+                <ul>
+                    <li>Modificar este proyecto en Python y HTML.</li>
+                    <li>Enviar tus cambios para que otros continúen.</li>
+                    <li>Ver cómo evoluciona el código semana a semana.</li>
+                    <li>¡Dejar tu huella en este experimento único!</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Pull & Pass | Hecho con Python + Flask</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
