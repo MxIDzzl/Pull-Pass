@@ -1,5 +1,18 @@
 # 🚀 Pull & Pass
 
+![GitHub contributors](https://img.shields.io/github/contributors/tu-usuario/pull-and-pass?color=brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/tu-usuario/pull-and-pass?style=social)
+![GitHub forks](https://img.shields.io/github/forks/tu-usuario/pull-and-pass?style=social)
+![GitHub license](https://img.shields.io/github/license/tu-usuario/pull-and-pass)
+
+---
+
+### 🎬 Introducción
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="coding gif" width="400"/>
+</p>
+
 ---
 
 ### 🎯 ¿Qué es Pull & Pass?
