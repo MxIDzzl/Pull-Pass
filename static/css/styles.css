@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: white;
+    padding: 20px 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header p {
+    font-style: italic;
+    color: #666;
+}
+
+main .saludo {
+    margin-bottom: 40px;
+}
+
+.mensaje-saludo {
+    margin-top: 20px;
+    color: #2ecc71;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.info ul {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.info ul li {
+    margin: 8px 0;
+    line-height: 1.4;
+}
